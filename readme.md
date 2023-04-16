@@ -39,11 +39,11 @@ function layout(blocks: Block[]): LayoutResult[]  {
 }
 ```
 
-**Примеры:**
+## Примеры:
 
 ### Пример 1
 
-`
+```
 const blocks = [{
 "id": 738,
 "form": [
@@ -71,7 +71,7 @@ const result = [
 "isRotated": false
 }
 ];
-`
+```
 
 ### Пример 2
 
@@ -227,5 +227,7 @@ const result = [
 ```
 
 _Примечания_
-Решение должно представлять из себя Node.js модуль, экспортирующий функцию layout.
-`module.exports = function layout(blocks) { /* ... */ }`
+    Решение должно представлять из себя Node.js модуль, экспортирующий функцию layout.
+```
+module.exports = function layout(blocks) { /* ... */ }
+```
